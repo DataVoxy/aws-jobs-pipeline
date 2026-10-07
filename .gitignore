@@ -1,0 +1,21 @@
+# Generated data (reproducible via generate_data.py + run_pipeline.py)
+data/
+
+# Bundled Windows Spark helper (large binary; document how to get it instead)
+hadoop/
+
+# Pipeline run logs
+pipeline_out.txt
+*_out.txt
+
+# Terraform state (never commit; contains resource ids/secrets)
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
